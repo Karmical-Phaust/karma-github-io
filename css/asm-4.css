@@ -1,0 +1,150 @@
+#index {
+    background-image: url('../Imgs/giphy.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#header {
+    background-image: url('../Imgs/clockwork.jpg');
+    background-size: cover;
+    border-radius: 12px;
+}
+
+#dt-1 {
+    background-image: url('../Imgs/yellow_background.jpg');
+    background-attachment: scroll;
+    background-size: contain;
+}
+
+#dt-2 {
+    background-image: url('../Imgs/blue_background.jpg');
+    background-attachment: scroll;
+    background-size: contain;
+}
+
+#dt-3 {
+    background-image: url('../Imgs/vector_background.jpg');
+    background-attachment: scroll;
+    background-size: contain;
+}
+
+#about {
+    background-color: teal;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.666rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+#index-welcome {
+    text-align: center;
+    font-size: 1.5625rem;
+    color: azure;
+}
+
+.dt {
+    text-align: center;
+    font-weight: 600;
+}
+
+.homeabout {
+    text-align: center;
+    font-weight: 600;
+    color: white;
+}
+
+.indexpic {
+    text-align: center;
+}
+
+.saucea {
+    text-align: center;
+}
+
+.paintings {
+    text-align: center;
+}
+
+.memes {
+    text-align: center;
+}
+
+video {
+    display: block;
+    margin: auto;
+}
+
+
+/* The menu section */
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(105, 97, 97);
+    font-family: Arial;
+    border-radius: 0.75rem;
+}
+
+.navbar a {
+    float: left;
+    font-size: 1rem;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-weight: 600;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.section {
+    float: left;
+    overflow: hidden;
+}
+
+.sb {
+    font-size: 1rem;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    background-color: inherit;
+    font: inherit;
+    font-style: italic;
+    font-weight: 600;
+    margin: 0;
+}
+
+.navbar a:hover,
+.section:hover {
+    background-color: rgb(145, 55, 145);
+}
+
+.content {
+    display: none;
+    background-color: rgb(145, 55, 145);
+    width: 100%;
+    left: 0;
+}
+
+.section:hover .content {
+    display: block;
+}
+
+.content a:hover {
+    background-color: honeydew;
+    color: rgb(114, 125, 224);
+}
+
+.navbar .icon {
+    display: none;
+}
+
+
+/* The menu section */

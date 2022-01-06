@@ -1,0 +1,103 @@
+@media screen and (max-width: 992px) {
+    #header {
+        background-image: url('../Imgs/clockwork2.jpg');
+        background-size: cover;
+        border-radius: 12px;
+    }
+    #about {
+        background-color: rgb(217, 236, 133);
+    }
+    h1 {
+        font-size: 4.8vw;
+    }
+    h2 {
+        font-size: 2.7vw;
+    }
+    p {
+        font-size: 2.1vw !important;
+    }
+    a {
+        font-size: 1.62vw !important;
+    }
+    .sb {
+        font-size: 1.62vw !important;
+    }
+    /*Contact and server join part*/
+    .labels,
+    .inputs {
+        width: 100%;
+        margin-top: 0;
+    }
+    #submit {
+        margin-left: 82.9vw;
+    }
+    /*Contact and server join part*/
+}
+
+@media screen and (max-width: 786px) {
+    #header {
+        background-image: url('../Imgs/clockwork3.jpg');
+        background-size: cover;
+        border-radius: 12px;
+    }
+    #about {
+        background-color: rgb(163, 96, 177);
+    }
+    h1 {
+        font-size: 4.62vw;
+    }
+    h2 {
+        font-size: 2.62vw;
+    }
+    p {
+        font-size: 2.04vw !important;
+    }
+    a {
+        font-size: 1.62vw !important;
+    }
+    .sb {
+        font-size: 1.62vw !important;
+    }
+    /*Contact and server join part*/
+    .labels,
+    .inputs {
+        width: 100%;
+        margin-top: 0;
+    }
+    #submit {
+        margin-left: 42vw;
+    }
+    /*Contact and server join part*/
+    /**/
+    /**/
+    /*The responsive menu section*/
+    .navbar a,
+    .sb {
+        display: none;
+    }
+    .navbar a.icon {
+        display: block;
+        float: right;
+    }
+    .navbar.responsive {
+        position: relative;
+    }
+    .navbar.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .navbar.responsive a,
+    .navbar.responsive .section {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+    .navbar.responsive button,
+    .navbar.responsive .section .content a {
+        float: none;
+        display: inline-block;
+        text-align: left;
+    }
+    /*The responsive menu section*/
+}

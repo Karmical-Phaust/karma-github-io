@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Servers for you </title>
+    <link rel="stylesheet" href="css/contact-server.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header>
+        <h1> Join my server! </h1>
+        <div class="navbar" id="repnav">
+            <a href="index-4.html"> Home </a>
+            <a href="about.html"> About </a>
+            <div class="section">
+                <button class="sb"> Gallery </button>
+                <div class="content">
+                    <a href="details-1.html"> Paintings </a>
+                    <a href="details-2.html"> Memes </a>
+                    <a href="details-3.html"> Videos </a>
+                </div>
+            </div>
+            <div class="section">
+                <button class="sb"> Others </button>
+                <div class="content">
+                    <a href="contact.html"> Contact me! </a>
+                    <a href="#"> Join my server! </a>
+                </div>
+            </div>
+            <a href="javascript:void(0);" class="icon" onclick="responsive()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </header>
+    <hr>
+    <br>
+    <main>
+        <form>
+            <div class="row">
+                <div class="labels">
+                    <label for="yname"> Server's name: </label>
+                </div>
+                <div class="inputs">
+                    <input list="server" name="servers" id="servers" placeholder="  --- Choose a server to join ---  ">
+                    <datalist id="server">
+                        <option value="Discord - activated by Norse"> Discord </option>
+                        <option value="Minecraft - activated by Crack"> Minecraft </option>
+                        <option value="I/O - activated by Regista/ASGARD"> I/O </option>
+                        <option value="Babylon - activated by Marduk"> Babylon </option>
+                    </datalist>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="labels">
+                    <label for="yname"> Your name: </label>
+                </div>
+                <div class="inputs">
+                    <input type="text" name="yname" id="yname" placeholder="Please enter your name">
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="labels">
+                    <label for="yemail"> Your email: </label>
+                </div>
+                <div class="inputs">
+                    <input type="email" name="yemail" id="yemail" placeholder="Please enter your email">
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="labels">
+                    <label for="spec"> Special additionals: </label><br>
+                </div>
+                <div class="inputs">
+                    <div id="spec">
+                        <input type="checkbox" class="spec" id="spec1" name="spec1" value="Nitro">
+                        <label class="specs" for="spec1"> Nitro boost </label>
+                        <input type="checkbox" class="spec" id="spec2" name="spec2" value="Oper">
+                        <label class="specs" for="spec2"> Minecraft operators </label>
+                        <input type="checkbox" class="spec" id="spec3" name="spec3" value="Annu">
+                        <label class="specs" for="spec3"> Annunaki managements </label>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="labels">
+                    <label for="date"> Enroll date: </label>
+                </div>
+                <div class="inputs">
+                    <input type="date" name="date" id="date">
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="labels">
+                    <label for="appl"> Enroll application: </label>
+                </div>
+                <div class="inputs">
+                    <textarea placeholder="For special additionals signing purpose only - optional" name="appl" id="appl"></textarea>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="labels">
+                    <p id="call"> Call now for more info? </p>
+                </div>
+                <div class="inputs">
+                    <input type="radio" name="call" class="call" id="yes" value="yes">
+                    <label for="yes"> Yes </label>
+                    <input type="radio" name="call" class="call" id="no" value="no" checked>
+                    <label for="no"> No </label>
+                </div>
+            </div>
+            <br><br>
+
+            <input type="submit" id="submit" value="Send messages" onclick="checkif();">
+        </form>
+    </main>
+    <br>
+    <hr>
+    <footer>
+        <p class="homeabout"> &#169 2021 by Phaust </p>
+    </footer>
+    <script src="js/server.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/responsive.js"></script>
+</body>
+
+</html>
